@@ -3,4 +3,21 @@
     <color name="colorPrimary">#009A5A</color>
     <color name="colorPrimaryDark">#023610</color>
     <color name="colorAccent">#F2CB12</color>
+
+    <color name="userAvatarBG">#666666</color>
+    <color name="chatPrimary">#009A5A</color>
+    <color name="chatPrimaryFocus">#023610</color>
+    <color name="chatPrimaryPressed">#0B4A1C</color>
+    <color name="chatPrimaryDisabled">#01290C</color>
+    <color name="chatBGnText">#FFFFFF</color>
+    <color name="chatSecondary">#FFFFFF</color>
+    <color name="chatSecondaryFocus">#F1F1F1</color>
+    <color name="chatSecondaryPressed">#E9E9E9</color>
+    <color name="chatSecondaryDisabled">#66FFFFFF</color>
+    <color name="botBGBubbleStroke">#FFCCCC</color>
+    <color name="botBGBubble">#FFCCCC</color>
+    <color name="userBGBubbleStroke">#CAE4F5</color>
+    <color name="userBGBubble">#CAE4F5</color>
+    <color name="checkbox">#161616</color>
+    <color name="statusBarColor">@color/chatPrimaryPressed</color>
 </resources>
