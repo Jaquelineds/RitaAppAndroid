@@ -4,21 +4,107 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    android:visibility="visible"
+    tools:context=".ui.home.HomeFragment"
+    tools:visibility="visible">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="388dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_profile"
+        android:lineSpacingExtra="8sp"
+        android:text="MEU PERFIL"
+        android:textColor="#F4F3F3"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/consults"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        tools:text="MEU PERFIL" />
+
+    <Button
+        android:id="@+id/consults"
+        android:layout_width="388dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_consult"
+        android:lineSpacingExtra="8sp"
+        android:text="AGENDAR CONSULTA"
+        android:textColor="#F4F3F3"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/care"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile"
+        tools:text="AGENDAR CONSULTA" />
+
+    <Button
+        android:id="@+id/tips"
+        android:layout_width="388dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_tips"
+        android:lineSpacingExtra="8sp"
+        android:text="DICAS E BLOG POSTS"
+        android:textColor="#F4F3F3"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/chatbot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/care"
+        tools:text="DICAS E BLOG POSTS" />
+
+    <Button
+        android:id="@+id/chatbot"
+        android:layout_width="388dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/btn_chatbot"
+        android:lineSpacingExtra="8sp"
+        android:text="CONVERSE COM A RITA"
+        android:textColor="#F4F3F3"
+        android:textStyle="bold"
+        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tips"
+        tools:text="CONVERSE COM A RITA" />
+
+    <Button
+        android:id="@+id/care"
+        android:layout_width="388dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_care"
+        android:lineSpacingExtra="8sp"
+        android:text="COMO ESTÁ SE SENTINDO"
+        android:textColor="#F4F3F3"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/tips"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consults"
+        tools:text="COMO ESTÁ SE SENTINDO" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
