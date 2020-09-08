@@ -2,7 +2,7 @@
     <string name="app_name">RITA</string>
     <string name="title_profile">Perfil</string>
     <string name="title_care">Sua saúde</string>
-    <string name="title_home">Fale com a Rita</string>
+    <string name="title_home">Menu</string>
+    <string name="title_bot">Fale com a Rita</string>
     <string name="title_tips">Dicas de saúde</string>
-    <string name="title_notifications">Notificações</string>
 </resources>

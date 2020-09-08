@@ -18,10 +18,10 @@
         tools:layout="@layout/fragment_tips" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.desafio.vital.ritaapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_bot"
+        android:name="com.desafio.vital.ritaapp.ui.bot.BotFragment"
+        android:label="@string/title_bot"
+        tools:layout="@layout/fragment_bot" />
 
     <fragment
         android:id="@+id/navigation_care"

@@ -24,10 +24,12 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_care,
                 R.id.navigation_home,
                 R.id.navigation_tips,
-                R.id.navigation_notifications
+                R.id.navigation_bot
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
+
+
 }
